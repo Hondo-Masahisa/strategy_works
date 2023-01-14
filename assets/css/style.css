@@ -385,7 +385,11 @@ h3.subtitle:before {
 .about-text {
     margin-top: -4%;
 }
-
+@media screen and (max-width: 480px) {
+    .about-text {
+        margin-top: 0%;
+    }
+}
 
 .about-text h2 {
     margin-bottom: 0px;
@@ -422,6 +426,21 @@ h3.subtitle:before {
   padding-left: 1em;
   text-indent: -1em;
  }
+
+@media screen and (max-width: 480px) {
+    .list1 {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    .list2 {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    .list3 {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+}
 
 .me-image img {
     height: 50%;
