@@ -459,7 +459,7 @@ h3.subtitle:before {
 
 @media screen and (max-width: 480px) {
     .reason {
-        margin-left: 6%;
+        margin-left: 8%;
         margin-right: 6%;
     }
 }
