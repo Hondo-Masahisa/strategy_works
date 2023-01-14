@@ -479,6 +479,11 @@ h3.subtitle:before {
 .comparison {
     margin-left: 20px;
 }
+@media screen and (max-width: 480px) {
+    .comparison {
+        margin: auto
+    }
+}
 
 /* Progress bars */
 
